@@ -1,6 +1,9 @@
 " Detect filetypes for indenting and plugins
 filetype plugin indent on
 
+" More powerful backspace
+set backspace=indent,eol,start
+
 " Use 4 space indentation
 set tabstop=4
 set softtabstop=4
@@ -37,5 +40,6 @@ nnoremap <C-H> <C-W><C-H>
 call plug#begin('~/.vim/plugged')
 
 Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'Valloric/YouCompleteMe'
 
 call plug#end()

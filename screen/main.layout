@@ -1,3 +1,5 @@
+source ~/.screenrc
+
 # Initialize screen dev environment
 split -v
 screen -t dev
