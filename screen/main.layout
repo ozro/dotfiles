@@ -10,3 +10,5 @@ screen -t bash
 split
 focus
 screen -t bash
+
+focus

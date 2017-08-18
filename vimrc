@@ -14,17 +14,19 @@ set expandtab " Use spaces instead of tabs
 set number
 
 " Always show info along bottom
-set ruler
-
+set ruler 
 " Color scheme and syntax highlighting
 syntax enable
 set background=dark
 set t_Co=256
 colorscheme solarized
 
-" Highlight 80th coloumn
-set colorcolumn=80
+" Highlight 81st coloumn
+set colorcolumn=81
 highlight ColorColumn ctermbg=0
+
+" Change SignColumn color
+highlight SignColumn ctermbg=8
 
 " Natural splitting
 set splitbelow
@@ -41,5 +43,8 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'Valloric/YouCompleteMe'
+let g:ycm_global_ycm_extra_conf='~/.vim/plugged/YouCompleteMe/.ycm_extra_conf.py'
+let g:ycm_autoclose_preview_window_after_insertion=1
+let g:ycm_always_populate_location_list=1
 
 call plug#end()
