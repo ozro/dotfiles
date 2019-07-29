@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/autelpitt/.screenrc'
 let g:netrw_dirhist_2='/home/autelpitt/workspace/fastestpedestriandetectorinthewest-master/libs/opencv-3.2.0/platforms/linux/build_aarch64/modules/viz/.viz'
 let g:netrw_dirhist_3='/home/autelpitt/workspace/fastestpedestriandetectorinthewest-master'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/home/autelpitt/workspace/BACF_Master'
 let g:netrw_dirhist_6='/home/autelpitt/workspace/BACF_Master/docs'
 let g:netrw_dirhist_7='/home/autelpitt/workspace/BACF_Master'
 let g:netrw_dirhist_8='/home/autelpitt/workspace/detector'
+let g:netrw_dirhist_9='/home/zhang/.screen'
